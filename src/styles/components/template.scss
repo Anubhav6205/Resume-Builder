@@ -10,7 +10,7 @@
 
     &-theme {
         width:100%;
-        height:80vh;
+        height:75vh;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -141,8 +141,5 @@
       font-size: 0.8rem;
     }
   
-    .template-page-container-buttons {
-      grid-template-columns: 1fr;
-      gap: 1rem;
-    }
+   
   }

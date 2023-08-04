@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+
   
   
     .resume-examples-title {
@@ -19,6 +20,7 @@
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 3rem 6em;
+      padding:1rem;
   
       .resume-example {
         display: flex;
