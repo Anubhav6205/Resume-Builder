@@ -1,0 +1,174 @@
+/* Common styles for both desktop and mobile/tablet */
+.home-container {
+  @media (max-width: 768px) {
+    width:150%;
+    
+
+  }
+
+  &-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 0 5rem;
+    height: 90vh;
+    background-color: rgb(238, 238, 238);
+
+    /* Mobile and Tablet Styles */
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+      padding: 2rem;
+      height: auto;
+      
+
+    }
+
+    &-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        font-family: 'Space Grotesk', sans-serif;
+      }
+
+      h4 {
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        font-weight: lighter;
+        font-family: 'Space Grotesk', sans-serif;
+      }
+
+      p {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;/* Common styles for both desktop and mobile/tablet */
+        .home-container {
+          &-body {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            align-items: center;
+            padding: 0 5rem;
+            height: 90vh;
+            background-color: rgb(238, 238, 238);
+        
+            /* Mobile and Tablet Styles */
+            @media (max-width: 768px) {
+              grid-template-columns: 1fr;
+              padding: 2rem;
+              height: auto;
+            }
+        
+            &-left {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+        
+              h2 {
+                font-size: 1.8rem;
+                margin-bottom: 1rem;
+                font-weight: 400;
+                font-family: 'Space Grotesk', sans-serif;
+              }
+        
+              h4 {
+                font-size: 1.1rem;
+                margin-bottom: 1rem;
+                font-weight: lighter;
+                font-family: 'Space Grotesk', sans-serif;
+              }
+        
+              p {
+                font-size: 1rem;
+                margin-bottom: 1.5rem;
+              }
+        
+              button {
+                background-color: #007bff;
+                color: #fff;
+                padding: 1rem 1.5rem;
+                font-size: 1rem;
+                border: none;
+                border-radius: 5px;
+                font-weight: lighter;
+                font-family: 'Space Grotesk', sans-serif;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+        
+                a {
+                  color: #fff;
+                  text-decoration: none;
+                }
+        
+                &:hover {
+                  background-color: #0056b3;
+                }
+              }
+            }
+        
+            &-right {
+              display: flex;
+              justify-content: center;
+        
+              &-image {
+                width: 300px;
+                height: 300px;
+                border-radius: 10px;
+                overflow: hidden;
+        
+                img {
+                  object-fit: cover;
+                }
+              }
+            }
+          }
+        }
+        
+        font-weight: lighter;
+        font-family: 'Space Grotesk', sans-serif;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        a {
+          color: #fff;
+          text-decoration: none;
+        }
+
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+
+    &-right {
+      display: flex;
+      justify-content: center;
+
+      &-image {
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+        overflow: hidden;
+
+        img {
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

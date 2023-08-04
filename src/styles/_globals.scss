@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+
+}
+
+/* CSS to style the WebKit scrollbar */
+/* Hide the scrollbar track, but keep the scrollbar visible */
+/* CSS to style the WebKit scrollbar */
+/* Hide the scrollbar track, but keep the scrollbar visible */
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Style the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+  }
+  
+  /* Style the scrollbar track (the area behind the thumb) */
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the scrollbar corner */
+  ::-webkit-scrollbar-corner {
+    background-color: #f1f1f1;
+  }
+  

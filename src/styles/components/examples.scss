@@ -1,0 +1,48 @@
+/* styles.scss */
+.resume-examples {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  
+  
+    .resume-examples-title {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      font-family: "Space Grotesk", sans-serif;
+      color: #43475e;
+      margin:.5rem 0 2rem 0;
+    }
+  
+    .resume-examples-list {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3rem 6em;
+  
+      .resume-example {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  
+        img {
+          border-radius: 1rem;
+          border: 0.5px solid #c4c4c4;
+          transition: 0.3s ease-in-out;
+  
+          &:hover {
+            transform: scale(1.02);
+          }
+        }
+  
+        .resume-example-title {
+          font-size: 1.2rem;
+          font-weight: bold;
+          font-family: "Space Grotesk", sans-serif;
+          margin-top: 1rem;
+          color: #43475e;
+        }
+      }
+    }
+  }
+  

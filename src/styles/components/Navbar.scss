@@ -1,0 +1,42 @@
+/* Common styles for both desktop and mobile/tablet */
+.navbar-container {
+    padding: 1rem 4rem;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    place-items: center;
+    background-color: rgb(238, 238, 238);
+  
+    /* Mobile and Tablet Styles */
+    @media (max-width: 768px) {
+      padding: 1rem 2rem;
+    }
+  
+    &-right {
+      cursor: pointer;
+  
+      /* Mobile and Tablet Styles */
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+  
+  /* Mobile and Tablet Styles */
+  @media (max-width: 768px) {
+    .navbar-container {
+      justify-content: center;
+      padding:3rem 2rem;
+      height: 8vh;
+    }
+  
+    .navbar-container-left {
+      margin-right: auto;
+    }
+    
+
+    
+  }
+  
